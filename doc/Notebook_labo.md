@@ -31,8 +31,17 @@
 ## Semaine 16/01
 
 ### Objectifs
+- Plan des étapes et outils afin d'atteindre les attendus du projet
+- Bibliographies sur les outils à utiliser pour ce projet
+- 
+
 
 ### Complets
+- 
+
+
+
+
 
 ### En cours
 
