@@ -39,26 +39,29 @@ Dans ce projet, on doit pourvoir reconstruire des MAG (Génomes assemblés par m
 ### Objectifs
 - Plan des étapes et outils afin d'atteindre les attendus du projet
 - Bibliographies sur les outils à utiliser pour ce projet
-- 
+  
 
 
 ### Complets
 - Accès au serveur HCP mesocentre
-- Lecture des papiers des outils Metabat2 [Kang et al.(2019)](https://doi.org/10.7717/peerj.7359), Semibin2 [Pan et al.(2023)](https://doi.org/10.1093/bioinformatics/btad209), COMEBin [Wang et al.(2024)](https://doi.org/10.1038/s41467-023-44290-z), DAS_Tool [Sieber et al.(2018)](https://doi.org/10.1038/s41564-018-0171-1), CoverM [Aroney et al.(2025)](https://doi.org/10.1093/bioinformatics/btaf147), dRep [Olm et al.(2017)](https://doi.org/10.1038/ismej.2017.126)
+- Lecture des papiers des outils Metabat2 [Kang et al.(2019)](https://doi.org/10.7717/peerj.7359), Semibin2 [Pan et al.(2023)](https://doi.org/10.1093/bioinformatics/btad209), COMEBin [Wang et al.(2024)](https://doi.org/10.1038/s41467-023-44290-z), DAS_Tool [Sieber et al.(2018)](https://doi.org/10.1038/s41564-018-0171-1),CoverM [Aroney et al.(2025)](https://doi.org/10.1093/bioinformatics/btaf147), dRep [Olm et al.(2017)](https://doi.org/10.1038/ismej.2017.126)
 - Approfondissement des connaissances et explications sur les différents modes de binning
-- Installation des outils de binning grâce informations des git de chaque outil : metabat2, semibin2, das_tool (env : binning), dRep (env : drep) , CheckM2 (env : checkm2), CheckM (env : checkm), rgi (env : rgi)
+- Installation des outils de binning grâce informations des git de chaque outil : metabat2, semibin2, das_tool , dRep , CheckM2 , rgi 
 - Test des outils metabat2, semibin2, drep, rgi sur un seul échantillon
-- 
+- Plan des étapes à suivre et choix des outils à utiliser
 
 
 ### Discussion
-Les premiers outils de binning qu'on va utiliser ont été vu en détail afin de savoir et d'avoir une idée de comment ils analysent des données. On a rencontré un peu de diffilculté à installer l'outil COMEBin malgré le suivie des instructions du git des auteurs. On avait faire les tests de certains outils avec les options par défaut, mais on a decouvert qu'on pouvais mettre la taille max des contigs en partitulier pour les outils comme metabat2 et semibin2. Lors de la petite réunion hebdomadaire, on a choisit de regrouper tout les echantillons assemblés du projet dissemin pour faire un seul binning (co-binning ou binning multi échantillons)
+Les premiers outils de binning qu'on va utiliser ont été vu en détail afin de savoir et d'avoir une idée de comment ils analysent des données. On a rencontré un peu de diffilculté à installer l'outil COMEBin malgré le suivie des instructions du git des auteurs. On avait faire les tests de certains outils avec les options par défaut, mais on a decouvert qu'on pouvais mettre la taille max des contigs en partitulier pour les outils comme metabat2 et semibin2. Lors de la petite réunion hebdomadaire, on a choisit de regrouper tout les echantillons assemblés du projet dissemin pour faire un seul binning (co-binning ou binning multi échantillons). Le choix des outils a été faire en suivant la biblio. 
 
 
 ### En cours
+- Test des outils, bibliographie sur comment les faires fonctionner
 
 ### A faire
-
+- Test avec plus d'échantillons
+- Installer d'autres outils à utiliser
+- Apprendre à les faire fonctionner, recherche sur leurs git
 
 ---
 
@@ -66,10 +69,19 @@ Les premiers outils de binning qu'on va utiliser ont été vu en détail afin de
 ## Semaine 26/01
 
 ### Objectifs
+- Installer d'autres outils de binnning qu'on va utiliser
+- Continuer le test avec les outils déjà installés, en ajoutant les options des outils sur plus échantillons
+- Tester les nouveaux outils installés
+
 
 ### Complets
+- Installation des outils dans différents environnements: metabat2, semibin2, das_tool (env : binning), dRep (env : drep) , CheckM2 (env : checkm2), CheckM (env : checkm), rgi (env : rgi), coverm (env : coverm), gtdb-tk (env : gtdbtk)
+- Biblio sur l'outi gtdb-tk [Chaumeil et al.(2019)](https://doi.org/10.1093/bioinformatics/btz848)
+  
+
 
 ### Discussion
+Les outils étaient dans le même environnement conda et on avait des conflits entre outils. Cette fois, ils sont installés dans différents environnement à l'exception des outils metabat2, semibin2, das-tool qui sont ensemble. On a rencontré des diffilcultés à faire des tests sur plus de deux échantillons car on travail dans le home du mesocentre. Lors de la réunion on a appris qu'on pouvait travailler dans le scratch de mesocentre, et on peut faire des copies d'un serveur à un autre donc on travailler avec plus d'échantillons. Dans le montage de scoere-meb on a assez d'espace pour tout les résultats à produire.
 
 ### En cours 
 
