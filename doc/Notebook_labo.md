@@ -37,6 +37,9 @@
 
 
 ### Complets
+- Accès au serveur HCP mesocentre
+- Lecture des papiers des outils Metabat2 [Kang et al. (2019)](https://doi.org/10.7717/peerj.7359), Semibin2, COMEBin, DAS_Tool, CoverM, dRep
+- Approfondissement des connaissances et explications sur les différents modes de binning
 - 
 
 
