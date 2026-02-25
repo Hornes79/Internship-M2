@@ -100,10 +100,16 @@ Les outils étaient dans le même environnement conda et on avait des conflits e
 
 
 ### Objectifs
+- Faire les outils metabat2, semibin2, das_tool sur l'ensemble des échantillons du projet dissémin
+- Installer cd-hit-est et l'utiliser
+  
 
 ### Complets
+- Utilisation de l'outil Cd-hit [Li et Godzik (2006)](https://doi.org/10.1093/bioinformatics/btl158), et installation dans l'environnement (env : binning)
+- Recherche sur l'outil AMRFinderPlus [Feldgarden et al.(2021)](https://doi.org/10.1038/s41598-021-91456-0) : à utiliser, plus database pour la recherche de facteurs de virulences dans les MAG
 
 ### Discussion
+
 
 ### En cours 
 
