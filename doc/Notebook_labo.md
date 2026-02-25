@@ -25,3 +25,15 @@
 - Bibliographie
 - Faire un plan pour le sujet et les outils à utilser
 - Lecture des papiers de chaque outil pour voir une idée de comment ils traitent les données
+
+---
+
+## Semaine 16/01
+
+### Objectifs
+
+### Complets
+
+### En cours
+
+### A faire
