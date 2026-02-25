@@ -85,8 +85,12 @@ Les premiers outils de binning qu'on va utiliser ont été vu en détail afin de
 Les outils étaient dans le même environnement conda et on avait des conflits entre outils. Cette fois, ils sont installés dans différents environnement à l'exception des outils metabat2, semibin2, das-tool qui sont ensemble. On a rencontré des diffilcultés à faire des tests sur plus de deux échantillons car on travail dans le home du mesocentre. Lors de la réunion on a appris qu'on pouvait travailler dans le scratch de mesocentre, et on peut faire des copies d'un serveur à un autre donc on travailler avec plus d'échantillons. Dans le montage de scoere-meb on a assez d'espace pour tout les résultats à produire.
 
 ### En cours 
+- Test des outils 
 
 ### A faire
+- Faire les analyses avec les outils déjà tester sur l'ensemble des échantillons de dissémin
+- Continuer à essayer de faire fonctionner les outils suivants
+- Regarder outil cd-hit-est pour dérépliquer les contigs avant le binning
 
 
 ---
