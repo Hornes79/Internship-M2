@@ -75,8 +75,9 @@ Les premiers outils de binning qu'on va utiliser ont été vu en détail afin de
 
 
 ### Complets
-- Installation des outils dans différents environnements: metabat2, semibin2, das_tool (env : binning), dRep (env : drep) , CheckM2 (env : checkm2), CheckM (env : checkm), rgi (env : rgi), coverm (env : coverm), gtdb-tk (env : gtdbtk)
+- Installation des outils dans différents environnements: metabat2, semibin2, das_tool (env : binning), dRep (env : drep) , CheckM2 (env : checkm2), CheckM (env : checkm), rgi (env : rgi), coverm (env : coverm), gtdb-tk (env : gtdbtk), prokka (env : prokka)
 - Biblio sur l'outi gtdb-tk [Chaumeil et al.(2019)](https://doi.org/10.1093/bioinformatics/btz848)
+- Téléchargement des databases de checkm, checkm2, gtdb-tk
   
 
 
