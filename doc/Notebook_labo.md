@@ -160,14 +160,17 @@ Pour l'annotation fonctionnelle, l'outil Bakta a été choisi lors de la réunio
 - Lecture papier [De Yebra et al.(2026)](https://www.medrxiv.org/content/10.64898/2026.01.25.26344777v1) : regarde sur les résultats obtenus
 - Lecture du papier de [Shen et al.(2026)](https://www.sciencedirect.com/science/article/pii/S0048969725027858) : regarde sur les résultats obtenus
 
+
 ### Discussion
-Pendant la semaine, problème avec le montage du dossier où doit être les résultats sur le serveur soere-meb. Tout les jobs lancés ont été annulés. Également les bam formés sont tronqués, car on avait pas mise assez de ram pour les jobs. La formation des Bam ont été repris
+Pendant la semaine, problème avec le montage du dossier où doit être les résultats sur le serveur soere-meb. Tout les jobs lancés ont été annulés. Également les bam formés sont tronqués, car on avait pas mise assez de ram pour les jobs. La formation des Bam ont été repris. On a fait des tests pour les outils bakta et comebin mais on a pas pu voir les résultats à cause des copies entre serveur, donc à recommencer.
 
 ### En cours 
+- Formation des bams et binning (outil metabat et semibin)
 
+  
 ### A faire
 
-
+- Continuer les étapes de binning et recommencer les erreurs
 
 ---
 
