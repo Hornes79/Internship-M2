@@ -177,8 +177,17 @@ Pendant la semaine, problème avec le montage du dossier où doit être les rés
 ## Semaine 23/02
 
 ### Objectifs
+- Mieux gérer les transferts entre serveur pour éviter les pannes
+- Faire metabat et semibin
 
+  
 ### Complets
+- Les bams sont refaire et bien cette fois
+- Les bins de l'outil Metabat2 ont été biens obtenues et bien transférés sur le serveur soere-meb
+- Organisation du git
+- Bins de semibin2 au complets
+- Qualité des bins produire par l'outil metabat2 pour avoir une idée
+
 
 ### Discussion
 
