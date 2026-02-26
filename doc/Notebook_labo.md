@@ -107,13 +107,21 @@ Les outils étaient dans le même environnement conda et on avait des conflits e
 ### Complets
 - Utilisation de l'outil Cd-hit [Li et Godzik (2006)](https://doi.org/10.1093/bioinformatics/btl158), et installation dans l'environnement (env : binning)
 - Recherche sur l'outil AMRFinderPlus [Feldgarden et al.(2021)](https://doi.org/10.1038/s41598-021-91456-0) : à utiliser, plus database pour la recherche de facteurs de virulences dans les MAG
+- Test de cd-hit-est sur un plus grand jeu de données : échec
+- Test de CheckM et CheckM2 : pour comparaison de résultats
 
 ### Discussion
+L'outil cd-hit-est permet la déréplication de contigs, surtout dans notre cas où on concaterne tout les fasta. Mais l'outil a des limites comme le fait de ne pas pourvoir gérer un contig de grand taille : limite à environ 7000 bp. Du coup, ceci est une des raisons pour lesquelles on abondanne l'idée et également le fait que dans la littérature cette étape n'est pas fait pour la formation des MAGS.
+Pour l'annotation fonctionnelle, l'outil Bakta a été choisi lors de la réunion hebdomadaire car plus complet et avec une annotation direct des facteurs de virulence et de génes de résistances aux antibiotiques (contient ces databases)
 
 
 ### En cours 
+- Faire les premieres étapes de binning en assemblant tout les données dissemin et non pas sous groupes
 
 ### A faire
+- Pourvoir installer et faire fonctionner COMEBin, pour avoir une outil de binning en plus
+- Regarder de plus prêt l'outil Bakta et sa base de données ainsi que les bases de données intégrés
+
 
 ---
 
