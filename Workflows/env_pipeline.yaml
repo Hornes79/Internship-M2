@@ -1,0 +1,43 @@
+name: mag_pipeline
+
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+
+dependencies:
+  - python=3.10
+  - pip
+
+  # QC & preprocessing
+  - fastqc=0.11.7
+  - trimmomatic=0.38
+  - seqkit=2.13
+  
+  # Assembly
+  - megahit=1.1.1
+
+  # Mapping
+  - bowtie2=2.5.5
+  - samtools=1.23.1
+
+  # Binning
+  - metabat2=2.18
+  - semibin=2.2.1
+  - das_tool=1.1.7
+
+  # Genome processing
+  - drep=3.6.0
+  - mash=2.3
+  - mummer=3.23
+  - fastani=1.34
+  - prodigal=2.6.3
+
+  # Quality & annotation
+  - checkm2=1.1.0
+  - gtdbtk=2.6.1
+  - gvclass=1.2.2
+  - bakta=1.12.0
+
+  # Quantification
+  - coverm=0.7.0
